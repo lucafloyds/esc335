@@ -1,0 +1,13 @@
+.logo {
+  margin-left: 26px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icono {
+  margin: 5px;
+  width: 10%;
+  height: 10%;
+  border-radius: 45%;
+}

@@ -1,0 +1,23 @@
+table.tabla_mostrar {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  background-color: #c2c5d4;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #c2c5d4;
+  border-style: solid;
+  color: #000000;
+}
+
+table.tabla_mostrar td, table.tabla_mostrar th {
+  border-width: 2px;
+  border-color: #c2c5d4;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.tabla_mostrar thead {
+  background-color: #5e73f8;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-color: #000000;
+}

@@ -1,0 +1,32 @@
+.mensaje_informacion, .mensaje_correcto, .mensaje_precaucion, .mensaje_error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    text-align:left;
+    border-radius: 10px;
+    width:auto;
+}
+.mensaje_informacion {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('imagenes/info.jpg');
+}
+.mensaje_correcto {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('imagenes/correcto.JPG');
+}
+.mensaje_precaucion {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('imagenes/ojo.JPG');
+}
+.mensaje_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('imagenes/error.jpg');
+}

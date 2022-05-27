@@ -1,0 +1,10 @@
+.tipo_imagen {
+  color: transparent;
+  background-color: transparent;
+}
+
+.tipo_imagen:hover {
+  color: transparent;
+  background-color: transparent;
+  box-shadow: inset;
+}

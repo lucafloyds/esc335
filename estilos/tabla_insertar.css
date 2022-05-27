@@ -1,0 +1,21 @@
+table.tabla_insertar {
+  width: 100%;
+  background-color: #c2c5d4;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #c2c5d4;
+  border-style: solid;
+  color: #000000;
+}
+
+table.tabla_insertar td, table.tabla_insertar th {
+  border-width: 2px;
+  border-color: #c2c5d4;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.tabla_insertar thead {
+  background-color: #5e73f8;
+  border-color: #000000;
+}

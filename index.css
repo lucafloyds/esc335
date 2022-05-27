@@ -1,0 +1,26 @@
+
+@import url(./estilos/general.css) all;
+
+@import url(./estilos/boton.css) all;
+
+@import url(./estilos/form_invisible.css) all;
+
+@import url(./estilos/grid.css) all;
+
+@import url(./estilos/contenedores_secundarios.css) all;
+
+@import url(./estilos/etiqueta_a_tipo_texto.css) all;
+
+@import url(./estilos/etiqueta_a_tipo_imagen.css) all;
+
+@import url(./estilos/alertas_errores.css) all;
+
+@import url(./estilos/tabla_mostrar.css) all;
+
+@import url(./estilos/tabla_insertar.css) all;
+
+@import url(./estilos/imagenes.css) all;
+
+@import url(./estilos/buscar.css) all;
+
+@import url(./estilos/listas.css) all;
