@@ -1,19 +1,20 @@
 .tipo_texto { 
-	color: #c2c5d4;font-weight: normal;text-decoration: none;
+	color: black;font-weight: normal;text-decoration: none;
 	background-color: #5e73f8;
 	padding: 5px;
 	margin: 0px;
 	font-weight: 100px;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .tipo_texto:hover {
-	font-weight: normal;
-	text-decoration: none;
-	cursor: pointer;
-  border-radius: 10px;
-  background: #5e73f8;
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+	text-decoration: none;
+	font-weight: normal;
+  background: #5e73f8;
+  border-radius: 10px;
+	cursor: pointer;
 } 
 
 
@@ -26,11 +27,11 @@
 }
 
 .tipo_texto:focus {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.90);
   border-bottom: 1px solid;
+  background: #5e73f8;
   border-color: #C0C0C0;
   border-radius: 10px;
-  background: #5e73f8;
-  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.90);
 }
 
 .tipo_texto:active {
@@ -40,10 +41,11 @@
 }
 
 .tipo_texto.selected {
-	font-weight: normal;
-	text-decoration: none;
-	cursor: pointer;
-  border-radius: 10px;
-  background: #5e73f8;
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+	text-decoration: none;
+	font-weight: normal;
+  border-bottom: 1px solid;
+  background: #5e73f8;
+  border-radius: 10px;
+	cursor: pointer;
 }

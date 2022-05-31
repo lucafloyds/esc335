@@ -1,4 +1,5 @@
 table.tabla_insertar {
+  height: 100%;
   width: 100%;
   background-color: #c2c5d4;
   border-collapse: collapse;
@@ -6,6 +7,7 @@ table.tabla_insertar {
   border-color: #c2c5d4;
   border-style: solid;
   color: #000000;
+  font-size: medium;
 }
 
 table.tabla_insertar td, table.tabla_insertar th {

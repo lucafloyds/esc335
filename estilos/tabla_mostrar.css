@@ -3,6 +3,7 @@ table.tabla_mostrar {
   width: 100%;
   background-color: #c2c5d4;
   border-collapse: collapse;
+  border-radius: 10px;
   border-width: 2px;
   border-color: #c2c5d4;
   border-style: solid;

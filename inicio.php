@@ -26,17 +26,17 @@ if (!isset($_SESSION['username'])) {
 				</div>
 				<div>
 					<h3>
-						<a class="tipo_texto" href="gestion_principal.php">Gestion</a>
+						<a class="tipo_texto" href="menu_gestion.php">Gestion</a>
 					</h3>
 				</div>
 				<div>
 					<h3>
-						<a class="tipo_texto" href="#">Alumnos</a>
+						<a class="tipo_texto" href="menu_alumnos.php">Alumnos</a>
 					</h3>
 				</div>
 				<div>
 					<h3>
-						<a class="tipo_texto" href="#">Docentes</a>
+						<a class="tipo_texto" href="menu_docentes.php">Docentes</a>
 					</h3>
 				</div>
 				<div>

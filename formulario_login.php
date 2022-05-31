@@ -55,15 +55,15 @@ if (isset($_GET['mensaje'])) {
 							<form method="POST" action="funciones/procesar_login.php">
 
 								<div class="form__group field">
-								  <input type="input" class="form__field" placeholder="Usuario" name="txtUsuario" id='name' required />
+								  <input type="input" class="caja_texto" placeholder="Usuario" name="txtUsuario" id='name' required />
 								</div>
 
 								<div class="form__group field">
-								  <input type="input" class="form__field" placeholder="Constraseña" name="txtPassword" id='password' required />
+								  <input type="input" class="caja_texto" placeholder="Constraseña" name="txtPassword" id='password' required />
 								</div>
 
-								<br/>
 								<input type="submit" class="button" value="Iniciar sesión">
+								<br/>
 								
 							</form>
 					  </div>

@@ -26,12 +26,12 @@ if (!isset($_SESSION['username'])) {
 				</div>
 				<div>
 					<h3>
-						<a class="tipo_texto selected" href="gestion_principal.php">Gestion</a>
+						<a class="tipo_texto selected" href="menu_gestion.php">Gestion</a>
 					</h3>
 				</div>
 				<div>
 					<h3>
-						<a class="tipo_texto" href="#">Alumnos</a>
+						<a class="tipo_texto" href="menu_alumnos.php">Alumnos</a>
 					</h3>
 				</div>
 				<div>
@@ -47,16 +47,12 @@ if (!isset($_SESSION['username'])) {
 				<div>
 					<h3>
 						<a class="tipo_texto" href="./funciones/cerrar_sesion.php">Cerrar sesión</a>
-					</h3>	
+					</h3>
 				</div>
 			</div>
 		</div>
 		<div class="nav">
-			<ul>
-				<li>
-					<a class="tipo_texto" href="alta_personas.php">Altas</a>
-				</li>
-				<li>
+			<ul><li>
 					<a class="tipo_texto" href="#">Ciclo Lectivo</a>
 				</li>
 				<li>
@@ -81,7 +77,6 @@ if (!isset($_SESSION['username'])) {
 		            <td>Gmail</td>
 		            <td>Perfil</td>
 		            <td>Editar/Eliminar</td>
-
 		        </thead>
 		     	<?php while ($array_usuarios = $registro_usuarios->fetch_assoc()):  ?>
 		        <tr>
